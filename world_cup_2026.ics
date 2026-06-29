@@ -1,0 +1,1151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//World Cup Calendar//FIFA WC 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:World Cup 2026
+BEGIN:VEVENT
+UID:fifa-wc26-match-1@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Mexico_City:20260611T130000
+DTEND;TZID=America/Mexico_City:20260611T150000
+SUMMARY:GROUP - Mexico vs South Africa (M1)
+DESCRIPTION:FIFA World Cup 2026 Match 1\nGroup Stage - Mexico vs South Africa\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021443
+LOCATION:Mexico City Stadium (Mexico City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021443
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-2@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Mexico_City:20260611T200000
+DTEND;TZID=America/Mexico_City:20260611T220000
+SUMMARY:GROUP - Korea Republic vs Czechia (M2)
+DESCRIPTION:FIFA World Cup 2026 Match 2\nGroup Stage - Korea Republic vs Czechia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021441
+LOCATION:Guadalajara Stadium (Guadalajara)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021441
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-3@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Toronto:20260612T150000
+DTEND;TZID=America/Toronto:20260612T170000
+SUMMARY:GROUP - Canada vs Bosnia and Herzegovina (M3)
+DESCRIPTION:FIFA World Cup 2026 Match 3\nGroup Stage - Canada vs Bosnia and Herzegovina\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021449
+LOCATION:Toronto Stadium (Toronto)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021449
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-4@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260612T180000
+DTEND;TZID=America/Los_Angeles:20260612T200000
+SUMMARY:GROUP - USA vs Paraguay (M4)
+DESCRIPTION:FIFA World Cup 2026 Match 4\nGroup Stage - USA vs Paraguay\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021458
+LOCATION:Los Angeles Stadium (Los Angeles)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021458
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-5@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260613T210000
+DTEND;TZID=America/New_York:20260613T230000
+SUMMARY:GROUP - Haiti vs Scotland (M5)
+DESCRIPTION:FIFA World Cup 2026 Match 5\nGroup Stage - Haiti vs Scotland\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021453
+LOCATION:Boston Stadium (Boston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021453
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-6@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Vancouver:20260613T210000
+DTEND;TZID=America/Vancouver:20260613T230000
+SUMMARY:GROUP - Australia vs Türkiye (M6)
+DESCRIPTION:FIFA World Cup 2026 Match 6\nGroup Stage - Australia vs Türkiye\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021463
+LOCATION:BC Place Vancouver (Vancouver)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021463
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-7@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260613T180000
+DTEND;TZID=America/New_York:20260613T200000
+SUMMARY:GROUP - Brazil vs Morocco (M7)
+DESCRIPTION:FIFA World Cup 2026 Match 7\nGroup Stage - Brazil vs Morocco\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021456
+LOCATION:New York/New Jersey Stadium (New Jersey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021456
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-8@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260613T120000
+DTEND;TZID=America/Los_Angeles:20260613T140000
+SUMMARY:GROUP - Qatar vs Switzerland (M8)
+DESCRIPTION:FIFA World Cup 2026 Match 8\nGroup Stage - Qatar vs Switzerland\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021447
+LOCATION:San Francisco Bay Area Stadium (San Francisco Bay Area)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021447
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-9@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260614T190000
+DTEND;TZID=America/New_York:20260614T210000
+SUMMARY:GROUP - Côte d'Ivoire vs Ecuador (M9)
+DESCRIPTION:FIFA World Cup 2026 Match 9\nGroup Stage - Côte d'Ivoire vs Ecuador\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021467
+LOCATION:Philadelphia Stadium (Philadelphia)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021467
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-10@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260614T120000
+DTEND;TZID=America/Chicago:20260614T140000
+SUMMARY:GROUP - Germany vs Curaçao (M10)
+DESCRIPTION:FIFA World Cup 2026 Match 10\nGroup Stage - Germany vs Curaçao\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021464
+LOCATION:Houston Stadium (Houston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021464
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-11@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260614T150000
+DTEND;TZID=America/Chicago:20260614T170000
+SUMMARY:GROUP - Netherlands vs Japan (M11)
+DESCRIPTION:FIFA World Cup 2026 Match 11\nGroup Stage - Netherlands vs Japan\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021470
+LOCATION:Dallas Stadium (Dallas)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021470
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-12@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Monterrey:20260614T200000
+DTEND;TZID=America/Monterrey:20260614T220000
+SUMMARY:GROUP - Sweden vs Tunisia (M12)
+DESCRIPTION:FIFA World Cup 2026 Match 12\nGroup Stage - Sweden vs Tunisia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021474
+LOCATION:Monterrey Stadium (Monterrey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021474
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-13@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260615T180000
+DTEND;TZID=America/New_York:20260615T200000
+SUMMARY:GROUP - Saudi Arabia vs Uruguay (M13)
+DESCRIPTION:FIFA World Cup 2026 Match 13\nGroup Stage - Saudi Arabia vs Uruguay\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021486
+LOCATION:Miami Stadium (Miami)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021486
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-14@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260615T120000
+DTEND;TZID=America/New_York:20260615T140000
+SUMMARY:GROUP - Spain vs Cabo Verde (M14)
+DESCRIPTION:FIFA World Cup 2026 Match 14\nGroup Stage - Spain vs Cabo Verde\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021482
+LOCATION:Atlanta Stadium (Atlanta)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021482
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-15@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260615T180000
+DTEND;TZID=America/Los_Angeles:20260615T200000
+SUMMARY:GROUP - IR Iran vs New Zealand (M15)
+DESCRIPTION:FIFA World Cup 2026 Match 15\nGroup Stage - IR Iran vs New Zealand\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021476
+LOCATION:Los Angeles Stadium (Los Angeles)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021476
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-16@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260615T120000
+DTEND;TZID=America/Los_Angeles:20260615T140000
+SUMMARY:GROUP - Belgium vs Egypt (M16)
+DESCRIPTION:FIFA World Cup 2026 Match 16\nGroup Stage - Belgium vs Egypt\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021478
+LOCATION:Seattle Stadium (Seattle)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021478
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-17@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260616T150000
+DTEND;TZID=America/New_York:20260616T170000
+SUMMARY:GROUP - France vs Senegal (M17)
+DESCRIPTION:FIFA World Cup 2026 Match 17\nGroup Stage - France vs Senegal\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021490
+LOCATION:New York/New Jersey Stadium (New Jersey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021490
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-18@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260616T180000
+DTEND;TZID=America/New_York:20260616T200000
+SUMMARY:GROUP - Iraq vs Norway (M18)
+DESCRIPTION:FIFA World Cup 2026 Match 18\nGroup Stage - Iraq vs Norway\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021488
+LOCATION:Boston Stadium (Boston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021488
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-19@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260616T200000
+DTEND;TZID=America/Chicago:20260616T220000
+SUMMARY:GROUP - Argentina vs Algeria (M19)
+DESCRIPTION:FIFA World Cup 2026 Match 19\nGroup Stage - Argentina vs Algeria\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021496
+LOCATION:Kansas City Stadium (Kansas City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021496
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-20@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260616T210000
+DTEND;TZID=America/Los_Angeles:20260616T230000
+SUMMARY:GROUP - Austria vs Jordan (M20)
+DESCRIPTION:FIFA World Cup 2026 Match 20\nGroup Stage - Austria vs Jordan\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021498
+LOCATION:San Francisco Bay Area Stadium (San Francisco Bay Area)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021498
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-21@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Toronto:20260617T190000
+DTEND;TZID=America/Toronto:20260617T210000
+SUMMARY:GROUP - Ghana vs Panama (M21)
+DESCRIPTION:FIFA World Cup 2026 Match 21\nGroup Stage - Ghana vs Panama\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021510
+LOCATION:Toronto Stadium (Toronto)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021510
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-22@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260617T150000
+DTEND;TZID=America/Chicago:20260617T170000
+SUMMARY:GROUP - England vs Croatia (M22)
+DESCRIPTION:FIFA World Cup 2026 Match 22\nGroup Stage - England vs Croatia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021507
+LOCATION:Dallas Stadium (Dallas)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021507
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-23@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260617T120000
+DTEND;TZID=America/Chicago:20260617T140000
+SUMMARY:GROUP - Portugal vs Congo DR (M23)
+DESCRIPTION:FIFA World Cup 2026 Match 23\nGroup Stage - Portugal vs Congo DR\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021502
+LOCATION:Houston Stadium (Houston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021502
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-24@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Mexico_City:20260617T200000
+DTEND;TZID=America/Mexico_City:20260617T220000
+SUMMARY:GROUP - Uzbekistan vs Colombia (M24)
+DESCRIPTION:FIFA World Cup 2026 Match 24\nGroup Stage - Uzbekistan vs Colombia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021504
+LOCATION:Mexico City Stadium (Mexico City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021504
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-25@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260618T120000
+DTEND;TZID=America/New_York:20260618T140000
+SUMMARY:GROUP - Czechia vs South Africa (M25)
+DESCRIPTION:FIFA World Cup 2026 Match 25\nGroup Stage - Czechia vs South Africa\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021440
+LOCATION:Atlanta Stadium (Atlanta)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021440
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-26@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260618T120000
+DTEND;TZID=America/Los_Angeles:20260618T140000
+SUMMARY:GROUP - Switzerland vs Bosnia and Herzegovina (M26)
+DESCRIPTION:FIFA World Cup 2026 Match 26\nGroup Stage - Switzerland vs Bosnia and Herzegovina\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021446
+LOCATION:Los Angeles Stadium (Los Angeles)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021446
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-27@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Vancouver:20260618T150000
+DTEND;TZID=America/Vancouver:20260618T170000
+SUMMARY:GROUP - Canada vs Qatar (M27)
+DESCRIPTION:FIFA World Cup 2026 Match 27\nGroup Stage - Canada vs Qatar\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021450
+LOCATION:BC Place Vancouver (Vancouver)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021450
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-28@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Mexico_City:20260618T190000
+DTEND;TZID=America/Mexico_City:20260618T210000
+SUMMARY:GROUP - Mexico vs Korea Republic (M28)
+DESCRIPTION:FIFA World Cup 2026 Match 28\nGroup Stage - Mexico vs Korea Republic\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021442
+LOCATION:Guadalajara Stadium (Guadalajara)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021442
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-29@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260619T203000
+DTEND;TZID=America/New_York:20260619T223000
+SUMMARY:GROUP - Brazil vs Haiti (M29)
+DESCRIPTION:FIFA World Cup 2026 Match 29\nGroup Stage - Brazil vs Haiti\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021457
+LOCATION:Philadelphia Stadium (Philadelphia)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021457
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-30@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260619T180000
+DTEND;TZID=America/New_York:20260619T200000
+SUMMARY:GROUP - Scotland vs Morocco (M30)
+DESCRIPTION:FIFA World Cup 2026 Match 30\nGroup Stage - Scotland vs Morocco\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021454
+LOCATION:Boston Stadium (Boston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021454
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-31@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260619T200000
+DTEND;TZID=America/Los_Angeles:20260619T220000
+SUMMARY:GROUP - Türkiye vs Paraguay (M31)
+DESCRIPTION:FIFA World Cup 2026 Match 31\nGroup Stage - Türkiye vs Paraguay\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021460
+LOCATION:San Francisco Bay Area Stadium (San Francisco Bay Area)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021460
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-32@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260619T120000
+DTEND;TZID=America/Los_Angeles:20260619T140000
+SUMMARY:GROUP - USA vs Australia (M32)
+DESCRIPTION:FIFA World Cup 2026 Match 32\nGroup Stage - USA vs Australia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021462
+LOCATION:Seattle Stadium (Seattle)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021462
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-33@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Toronto:20260620T160000
+DTEND;TZID=America/Toronto:20260620T180000
+SUMMARY:GROUP - Germany vs Côte d'Ivoire (M33)
+DESCRIPTION:FIFA World Cup 2026 Match 33\nGroup Stage - Germany vs Côte d'Ivoire\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021469
+LOCATION:Toronto Stadium (Toronto)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021469
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-34@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260620T190000
+DTEND;TZID=America/Chicago:20260620T210000
+SUMMARY:GROUP - Ecuador vs Curaçao (M34)
+DESCRIPTION:FIFA World Cup 2026 Match 34\nGroup Stage - Ecuador vs Curaçao\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021465
+LOCATION:Kansas City Stadium (Kansas City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021465
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-35@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260620T120000
+DTEND;TZID=America/Chicago:20260620T140000
+SUMMARY:GROUP - Netherlands vs Sweden (M35)
+DESCRIPTION:FIFA World Cup 2026 Match 35\nGroup Stage - Netherlands vs Sweden\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021472
+LOCATION:Houston Stadium (Houston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021472
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-36@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Monterrey:20260620T220000
+DTEND;TZID=America/Monterrey:20260621T000000
+SUMMARY:GROUP - Tunisia vs Japan (M36)
+DESCRIPTION:FIFA World Cup 2026 Match 36\nGroup Stage - Tunisia vs Japan\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021475
+LOCATION:Monterrey Stadium (Monterrey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021475
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-37@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260621T180000
+DTEND;TZID=America/New_York:20260621T200000
+SUMMARY:GROUP - Uruguay vs Cabo Verde (M37)
+DESCRIPTION:FIFA World Cup 2026 Match 37\nGroup Stage - Uruguay vs Cabo Verde\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021487
+LOCATION:Miami Stadium (Miami)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021487
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-38@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260621T120000
+DTEND;TZID=America/New_York:20260621T140000
+SUMMARY:GROUP - Spain vs Saudi Arabia (M38)
+DESCRIPTION:FIFA World Cup 2026 Match 38\nGroup Stage - Spain vs Saudi Arabia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021483
+LOCATION:Atlanta Stadium (Atlanta)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021483
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-39@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260621T120000
+DTEND;TZID=America/Los_Angeles:20260621T140000
+SUMMARY:GROUP - Belgium vs IR Iran (M39)
+DESCRIPTION:FIFA World Cup 2026 Match 39\nGroup Stage - Belgium vs IR Iran\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021477
+LOCATION:Los Angeles Stadium (Los Angeles)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021477
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-40@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Vancouver:20260621T180000
+DTEND;TZID=America/Vancouver:20260621T200000
+SUMMARY:GROUP - New Zealand vs Egypt (M40)
+DESCRIPTION:FIFA World Cup 2026 Match 40\nGroup Stage - New Zealand vs Egypt\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021480
+LOCATION:BC Place Vancouver (Vancouver)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021480
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-41@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260622T200000
+DTEND;TZID=America/New_York:20260622T220000
+SUMMARY:GROUP - Norway vs Senegal (M41)
+DESCRIPTION:FIFA World Cup 2026 Match 41\nGroup Stage - Norway vs Senegal\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021491
+LOCATION:New York/New Jersey Stadium (New Jersey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021491
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-42@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260622T170000
+DTEND;TZID=America/New_York:20260622T190000
+SUMMARY:GROUP - France vs Iraq (M42)
+DESCRIPTION:FIFA World Cup 2026 Match 42\nGroup Stage - France vs Iraq\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021492
+LOCATION:Philadelphia Stadium (Philadelphia)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021492
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-43@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260622T120000
+DTEND;TZID=America/Chicago:20260622T140000
+SUMMARY:GROUP - Argentina vs Austria (M43)
+DESCRIPTION:FIFA World Cup 2026 Match 43\nGroup Stage - Argentina vs Austria\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021494
+LOCATION:Dallas Stadium (Dallas)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021494
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-44@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260622T200000
+DTEND;TZID=America/Los_Angeles:20260622T220000
+SUMMARY:GROUP - Jordan vs Algeria (M44)
+DESCRIPTION:FIFA World Cup 2026 Match 44\nGroup Stage - Jordan vs Algeria\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021499
+LOCATION:San Francisco Bay Area Stadium (San Francisco Bay Area)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021499
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-45@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260623T160000
+DTEND;TZID=America/New_York:20260623T180000
+SUMMARY:GROUP - England vs Ghana (M45)
+DESCRIPTION:FIFA World Cup 2026 Match 45\nGroup Stage - England vs Ghana\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021506
+LOCATION:Boston Stadium (Boston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021506
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-46@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Toronto:20260623T190000
+DTEND;TZID=America/Toronto:20260623T210000
+SUMMARY:GROUP - Panama vs Croatia (M46)
+DESCRIPTION:FIFA World Cup 2026 Match 46\nGroup Stage - Panama vs Croatia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021511
+LOCATION:Toronto Stadium (Toronto)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021511
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-47@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260623T120000
+DTEND;TZID=America/Chicago:20260623T140000
+SUMMARY:GROUP - Portugal vs Uzbekistan (M47)
+DESCRIPTION:FIFA World Cup 2026 Match 47\nGroup Stage - Portugal vs Uzbekistan\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021503
+LOCATION:Houston Stadium (Houston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021503
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-48@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Mexico_City:20260623T200000
+DTEND;TZID=America/Mexico_City:20260623T220000
+SUMMARY:GROUP - Colombia vs Congo DR (M48)
+DESCRIPTION:FIFA World Cup 2026 Match 48\nGroup Stage - Colombia vs Congo DR\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021501
+LOCATION:Guadalajara Stadium (Guadalajara)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021501
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-49@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260624T180000
+DTEND;TZID=America/New_York:20260624T200000
+SUMMARY:GROUP - Scotland vs Brazil (M49)
+DESCRIPTION:FIFA World Cup 2026 Match 49\nGroup Stage - Scotland vs Brazil\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021455
+LOCATION:Miami Stadium (Miami)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021455
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-50@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260624T180000
+DTEND;TZID=America/New_York:20260624T200000
+SUMMARY:GROUP - Morocco vs Haiti (M50)
+DESCRIPTION:FIFA World Cup 2026 Match 50\nGroup Stage - Morocco vs Haiti\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021452
+LOCATION:Atlanta Stadium (Atlanta)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021452
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-51@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Vancouver:20260624T120000
+DTEND;TZID=America/Vancouver:20260624T140000
+SUMMARY:GROUP - Switzerland vs Canada (M51)
+DESCRIPTION:FIFA World Cup 2026 Match 51\nGroup Stage - Switzerland vs Canada\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021451
+LOCATION:BC Place Vancouver (Vancouver)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021451
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-52@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260624T120000
+DTEND;TZID=America/Los_Angeles:20260624T140000
+SUMMARY:GROUP - Bosnia and Herzegovina vs Qatar (M52)
+DESCRIPTION:FIFA World Cup 2026 Match 52\nGroup Stage - Bosnia and Herzegovina vs Qatar\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021448
+LOCATION:Seattle Stadium (Seattle)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021448
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-53@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Mexico_City:20260624T190000
+DTEND;TZID=America/Mexico_City:20260624T210000
+SUMMARY:GROUP - Czechia vs Mexico (M53)
+DESCRIPTION:FIFA World Cup 2026 Match 53\nGroup Stage - Czechia vs Mexico\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021444
+LOCATION:Mexico City Stadium (Mexico City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021444
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-54@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Monterrey:20260624T190000
+DTEND;TZID=America/Monterrey:20260624T210000
+SUMMARY:GROUP - South Africa vs Korea Republic (M54)
+DESCRIPTION:FIFA World Cup 2026 Match 54\nGroup Stage - South Africa vs Korea Republic\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021445
+LOCATION:Monterrey Stadium (Monterrey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021445
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-55@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260625T160000
+DTEND;TZID=America/New_York:20260625T180000
+SUMMARY:GROUP - Curaçao vs Côte d'Ivoire (M55)
+DESCRIPTION:FIFA World Cup 2026 Match 55\nGroup Stage - Curaçao vs Côte d'Ivoire\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021468
+LOCATION:Philadelphia Stadium (Philadelphia)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021468
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-56@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260625T160000
+DTEND;TZID=America/New_York:20260625T180000
+SUMMARY:GROUP - Ecuador vs Germany (M56)
+DESCRIPTION:FIFA World Cup 2026 Match 56\nGroup Stage - Ecuador vs Germany\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021466
+LOCATION:New York/New Jersey Stadium (New Jersey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021466
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-57@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260625T180000
+DTEND;TZID=America/Chicago:20260625T200000
+SUMMARY:GROUP - Japan vs Sweden (M57)
+DESCRIPTION:FIFA World Cup 2026 Match 57\nGroup Stage - Japan vs Sweden\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021471
+LOCATION:Dallas Stadium (Dallas)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021471
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-58@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260625T180000
+DTEND;TZID=America/Chicago:20260625T200000
+SUMMARY:GROUP - Tunisia vs Netherlands (M58)
+DESCRIPTION:FIFA World Cup 2026 Match 58\nGroup Stage - Tunisia vs Netherlands\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021473
+LOCATION:Kansas City Stadium (Kansas City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021473
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-59@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260625T190000
+DTEND;TZID=America/Los_Angeles:20260625T210000
+SUMMARY:GROUP - Türkiye vs USA (M59)
+DESCRIPTION:FIFA World Cup 2026 Match 59\nGroup Stage - Türkiye vs USA\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021459
+LOCATION:Los Angeles Stadium (Los Angeles)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021459
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-60@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260625T190000
+DTEND;TZID=America/Los_Angeles:20260625T210000
+SUMMARY:GROUP - Paraguay vs Australia (M60)
+DESCRIPTION:FIFA World Cup 2026 Match 60\nGroup Stage - Paraguay vs Australia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021461
+LOCATION:San Francisco Bay Area Stadium (San Francisco Bay Area)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021461
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-61@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260626T150000
+DTEND;TZID=America/New_York:20260626T170000
+SUMMARY:GROUP - Norway vs France (M61)
+DESCRIPTION:FIFA World Cup 2026 Match 61\nGroup Stage - Norway vs France\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021489
+LOCATION:Boston Stadium (Boston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021489
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-62@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Toronto:20260626T150000
+DTEND;TZID=America/Toronto:20260626T170000
+SUMMARY:GROUP - Senegal vs Iraq (M62)
+DESCRIPTION:FIFA World Cup 2026 Match 62\nGroup Stage - Senegal vs Iraq\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021493
+LOCATION:Toronto Stadium (Toronto)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021493
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-63@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260626T200000
+DTEND;TZID=America/Los_Angeles:20260626T220000
+SUMMARY:GROUP - Egypt vs IR Iran (M63)
+DESCRIPTION:FIFA World Cup 2026 Match 63\nGroup Stage - Egypt vs IR Iran\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021479
+LOCATION:Seattle Stadium (Seattle)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021479
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-64@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Vancouver:20260626T200000
+DTEND;TZID=America/Vancouver:20260626T220000
+SUMMARY:GROUP - New Zealand vs Belgium (M64)
+DESCRIPTION:FIFA World Cup 2026 Match 64\nGroup Stage - New Zealand vs Belgium\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021481
+LOCATION:BC Place Vancouver (Vancouver)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021481
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-65@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260626T190000
+DTEND;TZID=America/Chicago:20260626T210000
+SUMMARY:GROUP - Cabo Verde vs Saudi Arabia (M65)
+DESCRIPTION:FIFA World Cup 2026 Match 65\nGroup Stage - Cabo Verde vs Saudi Arabia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021485
+LOCATION:Houston Stadium (Houston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021485
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-66@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Mexico_City:20260626T180000
+DTEND;TZID=America/Mexico_City:20260626T200000
+SUMMARY:GROUP - Uruguay vs Spain (M66)
+DESCRIPTION:FIFA World Cup 2026 Match 66\nGroup Stage - Uruguay vs Spain\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021484
+LOCATION:Guadalajara Stadium (Guadalajara)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021484
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-67@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260627T170000
+DTEND;TZID=America/New_York:20260627T190000
+SUMMARY:GROUP - Panama vs England (M67)
+DESCRIPTION:FIFA World Cup 2026 Match 67\nGroup Stage - Panama vs England\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021508
+LOCATION:New York/New Jersey Stadium (New Jersey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021508
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-68@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260627T170000
+DTEND;TZID=America/New_York:20260627T190000
+SUMMARY:GROUP - Croatia vs Ghana (M68)
+DESCRIPTION:FIFA World Cup 2026 Match 68\nGroup Stage - Croatia vs Ghana\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021509
+LOCATION:Philadelphia Stadium (Philadelphia)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021509
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-69@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260627T210000
+DTEND;TZID=America/Chicago:20260627T230000
+SUMMARY:GROUP - Algeria vs Austria (M69)
+DESCRIPTION:FIFA World Cup 2026 Match 69\nGroup Stage - Algeria vs Austria\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021497
+LOCATION:Kansas City Stadium (Kansas City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021497
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-70@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260627T210000
+DTEND;TZID=America/Chicago:20260627T230000
+SUMMARY:GROUP - Jordan vs Argentina (M70)
+DESCRIPTION:FIFA World Cup 2026 Match 70\nGroup Stage - Jordan vs Argentina\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021495
+LOCATION:Dallas Stadium (Dallas)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021495
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-71@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260627T193000
+DTEND;TZID=America/New_York:20260627T213000
+SUMMARY:GROUP - Colombia vs Portugal (M71)
+DESCRIPTION:FIFA World Cup 2026 Match 71\nGroup Stage - Colombia vs Portugal\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021505
+LOCATION:Miami Stadium (Miami)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021505
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-72@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260627T193000
+DTEND;TZID=America/New_York:20260627T213000
+SUMMARY:GROUP - Congo DR vs Uzbekistan (M72)
+DESCRIPTION:FIFA World Cup 2026 Match 72\nGroup Stage - Congo DR vs Uzbekistan\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289273/400021500
+LOCATION:Atlanta Stadium (Atlanta)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021500
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-73@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260628T120000
+DTEND;TZID=America/Los_Angeles:20260628T140000
+SUMMARY:R32 - South Africa vs Canada (M73)
+DESCRIPTION:FIFA World Cup 2026 Match 73\nRound of 32 - South Africa vs Canada\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021518
+LOCATION:Los Angeles Stadium (Los Angeles)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021518
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-74@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260629T163000
+DTEND;TZID=America/New_York:20260629T183000
+SUMMARY:R32 - Germany vs Paraguay (M74)
+DESCRIPTION:FIFA World Cup 2026 Match 74\nRound of 32 - Germany vs Paraguay\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021513
+LOCATION:Boston Stadium (Boston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021513
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-75@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Monterrey:20260629T190000
+DTEND;TZID=America/Monterrey:20260629T210000
+SUMMARY:R32 - Netherlands vs Morocco (M75)
+DESCRIPTION:FIFA World Cup 2026 Match 75\nRound of 32 - Netherlands vs Morocco\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021522
+LOCATION:Monterrey Stadium (Monterrey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021522
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-76@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260629T120000
+DTEND;TZID=America/Chicago:20260629T140000
+SUMMARY:R32 - Brazil vs Japan (M76)
+DESCRIPTION:FIFA World Cup 2026 Match 76\nRound of 32 - Brazil vs Japan\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021516
+LOCATION:Houston Stadium (Houston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021516
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-77@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260630T170000
+DTEND;TZID=America/New_York:20260630T190000
+SUMMARY:R32 - France vs Sweden (M77)
+DESCRIPTION:FIFA World Cup 2026 Match 77\nRound of 32 - France vs Sweden\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021523
+LOCATION:New York/New Jersey Stadium (New Jersey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021523
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-78@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260630T120000
+DTEND;TZID=America/Chicago:20260630T140000
+SUMMARY:R32 - Côte d'Ivoire vs Norway (M78)
+DESCRIPTION:FIFA World Cup 2026 Match 78\nRound of 32 - Côte d'Ivoire vs Norway\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021514
+LOCATION:Dallas Stadium (Dallas)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021514
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-79@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Mexico_City:20260630T190000
+DTEND;TZID=America/Mexico_City:20260630T210000
+SUMMARY:R32 - Mexico vs Ecuador (M79)
+DESCRIPTION:FIFA World Cup 2026 Match 79\nRound of 32 - Mexico vs Ecuador\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021520
+LOCATION:Mexico City Stadium (Mexico City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021520
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-80@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260701T120000
+DTEND;TZID=America/New_York:20260701T140000
+SUMMARY:R32 - England vs Congo DR (M80)
+DESCRIPTION:FIFA World Cup 2026 Match 80\nRound of 32 - England vs Congo DR\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021512
+LOCATION:Atlanta Stadium (Atlanta)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021512
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-81@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260701T170000
+DTEND;TZID=America/Los_Angeles:20260701T190000
+SUMMARY:R32 - USA vs Bosnia and Herzegovina (M81)
+DESCRIPTION:FIFA World Cup 2026 Match 81\nRound of 32 - USA vs Bosnia and Herzegovina\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021524
+LOCATION:San Francisco Bay Area Stadium (San Francisco Bay Area)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021524
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-82@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260701T130000
+DTEND;TZID=America/Los_Angeles:20260701T150000
+SUMMARY:R32 - Belgium vs Senegal (M82)
+DESCRIPTION:FIFA World Cup 2026 Match 82\nRound of 32 - Belgium vs Senegal\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021525
+LOCATION:Seattle Stadium (Seattle)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021525
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-83@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Toronto:20260702T190000
+DTEND;TZID=America/Toronto:20260702T210000
+SUMMARY:R32 - Portugal vs Croatia (M83)
+DESCRIPTION:FIFA World Cup 2026 Match 83\nRound of 32 - Portugal vs Croatia\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021526
+LOCATION:Toronto Stadium (Toronto)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021526
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-84@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260702T120000
+DTEND;TZID=America/Los_Angeles:20260702T140000
+SUMMARY:R32 - Spain vs Austria (M84)
+DESCRIPTION:FIFA World Cup 2026 Match 84\nRound of 32 - Spain vs Austria\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021519
+LOCATION:Los Angeles Stadium (Los Angeles)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021519
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-85@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Vancouver:20260702T200000
+DTEND;TZID=America/Vancouver:20260702T220000
+SUMMARY:R32 - Switzerland vs Algeria (M85)
+DESCRIPTION:FIFA World Cup 2026 Match 85\nRound of 32 - Switzerland vs Algeria\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021527
+LOCATION:BC Place Vancouver (Vancouver)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021527
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-86@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260703T180000
+DTEND;TZID=America/New_York:20260703T200000
+SUMMARY:R32 - Argentina vs Cabo Verde (M86)
+DESCRIPTION:FIFA World Cup 2026 Match 86\nRound of 32 - Argentina vs Cabo Verde\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521
+LOCATION:Miami Stadium (Miami)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-87@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260703T203000
+DTEND;TZID=America/Chicago:20260703T223000
+SUMMARY:R32 - Colombia vs Ghana (M87)
+DESCRIPTION:FIFA World Cup 2026 Match 87\nRound of 32 - Colombia vs Ghana\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021517
+LOCATION:Kansas City Stadium (Kansas City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021517
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-88@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260703T130000
+DTEND;TZID=America/Chicago:20260703T150000
+SUMMARY:R32 - Australia vs Egypt (M88)
+DESCRIPTION:FIFA World Cup 2026 Match 88\nRound of 32 - Australia vs Egypt\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289287/400021515
+LOCATION:Dallas Stadium (Dallas)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021515
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-89@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260704T170000
+DTEND;TZID=America/New_York:20260704T190000
+SUMMARY:R16 - W74 vs W77 (M89)
+DESCRIPTION:FIFA World Cup 2026 Match 89\nRound of 16 - W74 vs W77\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021533
+LOCATION:Philadelphia Stadium (Philadelphia)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289288/400021533
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-90@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260704T120000
+DTEND;TZID=America/Chicago:20260704T140000
+SUMMARY:R16 - Canada vs W75 (M90)
+DESCRIPTION:FIFA World Cup 2026 Match 90\nRound of 16 - Canada vs W75\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021530
+LOCATION:Houston Stadium (Houston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289288/400021530
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-91@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260705T160000
+DTEND;TZID=America/New_York:20260705T180000
+SUMMARY:R16 - W76 vs W78 (M91)
+DESCRIPTION:FIFA World Cup 2026 Match 91\nRound of 16 - W76 vs W78\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021532
+LOCATION:New York/New Jersey Stadium (New Jersey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289288/400021532
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-92@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Mexico_City:20260705T180000
+DTEND;TZID=America/Mexico_City:20260705T200000
+SUMMARY:R16 - W79 vs W80 (M92)
+DESCRIPTION:FIFA World Cup 2026 Match 92\nRound of 16 - W79 vs W80\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021531
+LOCATION:Mexico City Stadium (Mexico City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289288/400021531
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-93@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260706T140000
+DTEND;TZID=America/Chicago:20260706T160000
+SUMMARY:R16 - W83 vs W84 (M93)
+DESCRIPTION:FIFA World Cup 2026 Match 93\nRound of 16 - W83 vs W84\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529
+LOCATION:Dallas Stadium (Dallas)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-94@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260706T170000
+DTEND;TZID=America/Los_Angeles:20260706T190000
+SUMMARY:R16 - W81 vs W82 (M94)
+DESCRIPTION:FIFA World Cup 2026 Match 94\nRound of 16 - W81 vs W82\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021534
+LOCATION:Seattle Stadium (Seattle)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289288/400021534
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-95@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260707T120000
+DTEND;TZID=America/New_York:20260707T140000
+SUMMARY:R16 - W86 vs W88 (M95)
+DESCRIPTION:FIFA World Cup 2026 Match 95\nRound of 16 - W86 vs W88\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021528
+LOCATION:Atlanta Stadium (Atlanta)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289288/400021528
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-96@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Vancouver:20260707T130000
+DTEND;TZID=America/Vancouver:20260707T150000
+SUMMARY:R16 - W85 vs W87 (M96)
+DESCRIPTION:FIFA World Cup 2026 Match 96\nRound of 16 - W85 vs W87\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021535
+LOCATION:BC Place Vancouver (Vancouver)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289288/400021535
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-97@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260709T160000
+DTEND;TZID=America/New_York:20260709T180000
+SUMMARY:QF - W89 vs W90 (M97)
+DESCRIPTION:FIFA World Cup 2026 Match 97\nQuarter-final - W89 vs W90\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536
+LOCATION:Boston Stadium (Boston)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-98@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Los_Angeles:20260710T120000
+DTEND;TZID=America/Los_Angeles:20260710T140000
+SUMMARY:QF - W93 vs W94 (M98)
+DESCRIPTION:FIFA World Cup 2026 Match 98\nQuarter-final - W93 vs W94\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538
+LOCATION:Los Angeles Stadium (Los Angeles)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-99@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260711T170000
+DTEND;TZID=America/New_York:20260711T190000
+SUMMARY:QF - W91 vs W92 (M99)
+DESCRIPTION:FIFA World Cup 2026 Match 99\nQuarter-final - W91 vs W92\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021539
+LOCATION:Miami Stadium (Miami)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289289/400021539
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-100@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260711T200000
+DTEND;TZID=America/Chicago:20260711T220000
+SUMMARY:QF - W95 vs W96 (M100)
+DESCRIPTION:FIFA World Cup 2026 Match 100\nQuarter-final - W95 vs W96\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021537
+LOCATION:Kansas City Stadium (Kansas City)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289289/400021537
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-101@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/Chicago:20260714T140000
+DTEND;TZID=America/Chicago:20260714T160000
+SUMMARY:SF - W97 vs W98 (M101)
+DESCRIPTION:FIFA World Cup 2026 Match 101\nSemi-final - W97 vs W98\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541
+LOCATION:Dallas Stadium (Dallas)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-102@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260715T150000
+DTEND;TZID=America/New_York:20260715T170000
+SUMMARY:SF - W99 vs W100 (M102)
+DESCRIPTION:FIFA World Cup 2026 Match 102\nSemi-final - W99 vs W100\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540
+LOCATION:Atlanta Stadium (Atlanta)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-103@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260718T170000
+DTEND;TZID=America/New_York:20260718T190000
+SUMMARY:3RD - L101 vs L102 (M103)
+DESCRIPTION:FIFA World Cup 2026 Match 103\n3rd Place Play-off - L101 vs L102\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289291/400021542
+LOCATION:Miami Stadium (Miami)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289291/400021542
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fifa-wc26-match-104@worldcup-calendar
+DTSTAMP:20260629T140032Z
+DTSTART;TZID=America/New_York:20260719T150000
+DTEND;TZID=America/New_York:20260719T170000
+SUMMARY:FINAL - W101 vs W102 (M104)
+DESCRIPTION:FIFA World Cup 2026 Match 104\nFinal - W101 vs W102\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543
+LOCATION:New York/New Jersey Stadium (New Jersey)
+URL:https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
