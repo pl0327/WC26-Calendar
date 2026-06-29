@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-06-29T15:09:08+00:00",
+  "lastUpdated": "2026-06-29T20:45:26+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2173,7 +2173,7 @@
       "stage": "Round of 16",
       "stageLabel": "Round of 16",
       "group": null,
-      "home": "W76",
+      "home": "Brazil",
       "away": "W78",
       "homePlaceholder": "W76",
       "awayPlaceholder": "W78",
@@ -2187,8 +2187,8 @@
       "fifaMatchId": "400021532",
       "fifaStageId": "289288",
       "status": "CONFIRMED",
-      "summary": "R16 - W76 vs W78 (M91)",
-      "description": "FIFA World Cup 2026 Match 91\nRound of 16 - W76 vs W78\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021532"
+      "summary": "R16 - Brazil vs W78 (M91)",
+      "description": "FIFA World Cup 2026 Match 91\nRound of 16 - Brazil vs W78\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021532"
     },
     {
       "matchNumber": 92,
