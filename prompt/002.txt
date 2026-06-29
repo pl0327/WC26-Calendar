@@ -1,3 +1,0 @@
-Next I would like to build the sync system. The final target is that the calendar is put under my iCloud account, and then al my Apple devices, iPhone, iPad and apple watch can have access to the calendar via subscription. 
-
-Suggest some relatively simple methods free of charge.

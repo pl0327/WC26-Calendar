@@ -3,13 +3,16 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
+DOCS_DIR = ROOT / "docs"
 FIFA_API = (
     "https://api.fifa.com/api/v3/calendar/matches"
     "?language=en&count=500&idSeason=285023"
@@ -19,6 +22,7 @@ SCORES_FIXTURES_URL = (
 )
 CALENDAR_TITLE = "World Cup 2026"
 MATCH_DURATION = timedelta(hours=2)
+UPDATE_DELAY = timedelta(hours=4)
 
 STAGE_CATEGORY = {
     "First Stage": "GROUP",
@@ -59,6 +63,8 @@ CITY_TIMEZONE = {
     "Vancouver": "America/Vancouver",
 }
 
+TRACKED_MATCH_FIELDS = ("home", "away", "summary", "description", "status")
+
 
 def fetch_matches() -> list[dict]:
     with urllib.request.urlopen(FIFA_API) as response:
@@ -84,6 +90,54 @@ def opponent_name(team: dict | None, placeholder: str | None) -> str:
 def parse_local_datetime(local_date: str) -> datetime:
     # FIFA LocalDate is local wall time with a trailing Z suffix.
     return datetime.fromisoformat(local_date.replace("Z", ""))
+
+
+def match_kickoff_utc(match: dict) -> datetime:
+    tz = ZoneInfo(match["timezone"])
+    start = parse_local_datetime(match["startLocal"]).replace(tzinfo=tz)
+    return start.astimezone(timezone.utc)
+
+
+def any_match_due_for_update(matches: list[dict], now: datetime) -> bool:
+    """True when at least one match is past kick-off plus the update delay."""
+    for match in matches:
+        if now >= match_kickoff_utc(match) + UPDATE_DELAY:
+            return True
+    return False
+
+
+def matches_changed(old_matches: list[dict], new_matches: list[dict]) -> bool:
+    old_by_number = {match["matchNumber"]: match for match in old_matches}
+    for match in new_matches:
+        previous = old_by_number.get(match["matchNumber"])
+        if previous is None:
+            return True
+        for field in TRACKED_MATCH_FIELDS:
+            if previous.get(field) != match.get(field):
+                return True
+    return False
+
+
+def changed_match_numbers(old_matches: list[dict], new_matches: list[dict]) -> list[int]:
+    old_by_number = {match["matchNumber"]: match for match in old_matches}
+    changed: list[int] = []
+    for match in new_matches:
+        previous = old_by_number.get(match["matchNumber"])
+        if previous is None:
+            changed.append(match["matchNumber"])
+            continue
+        for field in TRACKED_MATCH_FIELDS:
+            if previous.get(field) != match.get(field):
+                changed.append(match["matchNumber"])
+                break
+    return changed
+
+
+def load_existing_matches(json_path: Path) -> list[dict] | None:
+    if not json_path.exists():
+        return None
+    database = json.loads(json_path.read_text())
+    return database.get("matches")
 
 
 def format_ics_datetime(value: datetime) -> str:
@@ -169,6 +223,7 @@ def build_database(matches: list[dict]) -> dict:
         "lastUpdated": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "source": FIFA_API,
         "scoresFixturesUrl": SCORES_FIXTURES_URL,
+        "updateDelayHours": int(UPDATE_DELAY.total_seconds() // 3600),
         "matchCount": len(matches),
         "matches": matches,
     }
@@ -176,6 +231,7 @@ def build_database(matches: list[dict]) -> dict:
 
 def build_ics(matches: list[dict], generated_at: datetime) -> str:
     dtstamp = generated_at.strftime("%Y%m%dT%H%M%SZ")
+    refresh_hours = int(UPDATE_DELAY.total_seconds() // 3600)
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -183,6 +239,8 @@ def build_ics(matches: list[dict], generated_at: datetime) -> str:
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{CALENDAR_TITLE}",
+        f"REFRESH-INTERVAL;VALUE=DURATION:PT{refresh_hours}H",
+        f"X-PUBLISHED-TTL:PT{refresh_hours}H",
     ]
 
     for match in matches:
@@ -217,22 +275,72 @@ def build_ics(matches: list[dict], generated_at: datetime) -> str:
     return "\n".join(lines) + "\n"
 
 
-def main() -> None:
+def write_outputs(matches: list[dict], generated_at: datetime) -> tuple[Path, Path]:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
+
+    database = build_database(matches)
+    json_path = DATA_DIR / "matches.json"
+    ics_path = ROOT / "world_cup_2026.ics"
+    docs_ics_path = DOCS_DIR / "world_cup_2026.ics"
+
+    ics_content = build_ics(matches, generated_at)
+    json_path.write_text(json.dumps(database, indent=2, ensure_ascii=False) + "\n")
+    ics_path.write_text(ics_content)
+    docs_ics_path.write_text(ics_content)
+    (DOCS_DIR / ".nojekyll").touch()
+
+    return json_path, ics_path
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--auto",
+        action="store_true",
+        help=(
+            "Only fetch and write when a match is past kick-off plus the "
+            "update delay, and FIFA data has changed."
+        ),
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Always fetch from FIFA and rewrite outputs.",
+    )
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
     generated_at = datetime.now(timezone.utc)
+    json_path = DATA_DIR / "matches.json"
+    existing_matches = load_existing_matches(json_path)
+
+    if args.auto and not args.force:
+        if existing_matches is None:
+            print("No existing database found; performing initial fetch.")
+        elif not any_match_due_for_update(existing_matches, generated_at):
+            print(
+                "No matches are past kick-off plus "
+                f"{int(UPDATE_DELAY.total_seconds() // 3600)} hours yet; skipping update."
+            )
+            return
 
     raw_matches = fetch_matches()
     matches = [transform_match(raw) for raw in raw_matches]
-    database = build_database(matches)
 
-    json_path = DATA_DIR / "matches.json"
-    ics_path = ROOT / "world_cup_2026.ics"
+    if args.auto and not args.force and existing_matches is not None:
+        if not matches_changed(existing_matches, matches):
+            print("FIFA data unchanged; no calendar update needed.")
+            return
+        changed = changed_match_numbers(existing_matches, matches)
+        print(f"Updating calendar for changed matches: {changed}")
 
-    json_path.write_text(json.dumps(database, indent=2, ensure_ascii=False) + "\n")
-    ics_path.write_text(build_ics(matches, generated_at))
-
+    write_outputs(matches, generated_at)
     print(f"Wrote {len(matches)} matches to {json_path}")
-    print(f"Wrote calendar to {ics_path}")
+    print(f"Wrote calendar to {ROOT / 'world_cup_2026.ics'}")
+    print(f"Wrote calendar to {DOCS_DIR / 'world_cup_2026.ics'}")
 
 
 if __name__ == "__main__":
