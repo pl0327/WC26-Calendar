@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-06-29T23:49:21+00:00",
+  "lastUpdated": "2026-06-30T06:07:19+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2150,7 +2150,7 @@
       "stageLabel": "Round of 16",
       "group": null,
       "home": "Canada",
-      "away": "W75",
+      "away": "Morocco",
       "homePlaceholder": "W73",
       "awayPlaceholder": "W75",
       "startLocal": "2026-07-04T12:00:00",
@@ -2163,8 +2163,8 @@
       "fifaMatchId": "400021530",
       "fifaStageId": "289288",
       "status": "CONFIRMED",
-      "summary": "R16 - Canada vs W75 (M90)",
-      "description": "FIFA World Cup 2026 Match 90\nRound of 16 - Canada vs W75\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021530"
+      "summary": "R16 - Canada vs Morocco (M90)",
+      "description": "FIFA World Cup 2026 Match 90\nRound of 16 - Canada vs Morocco\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021530"
     },
     {
       "matchNumber": 91,
