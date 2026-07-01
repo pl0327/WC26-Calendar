@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-06-30T23:55:10+00:00",
+  "lastUpdated": "2026-07-01T07:00:20+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -1889,8 +1889,8 @@
       "away": "Ecuador",
       "homePlaceholder": "1A",
       "awayPlaceholder": "3CEFHI",
-      "startLocal": "2026-06-30T19:00:00",
-      "endLocal": "2026-06-30T21:00:00",
+      "startLocal": "2026-06-30T20:00:00",
+      "endLocal": "2026-06-30T22:00:00",
       "timezone": "America/Mexico_City",
       "stadium": "Mexico City Stadium",
       "city": "Mexico City",
@@ -2197,7 +2197,7 @@
       "stage": "Round of 16",
       "stageLabel": "Round of 16",
       "group": null,
-      "home": "W79",
+      "home": "Mexico",
       "away": "W80",
       "homePlaceholder": "W79",
       "awayPlaceholder": "W80",
@@ -2211,8 +2211,8 @@
       "fifaMatchId": "400021531",
       "fifaStageId": "289288",
       "status": "CONFIRMED",
-      "summary": "R16 - W79 vs W80 (M92)",
-      "description": "FIFA World Cup 2026 Match 92\nRound of 16 - W79 vs W80\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021531"
+      "summary": "R16 - Mexico vs W80 (M92)",
+      "description": "FIFA World Cup 2026 Match 92\nRound of 16 - Mexico vs W80\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021531"
     },
     {
       "matchNumber": 93,
