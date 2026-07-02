@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-07-02T03:30:13+00:00",
+  "lastUpdated": "2026-07-02T21:55:41+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2222,7 +2222,7 @@
       "stageLabel": "Round of 16",
       "group": null,
       "home": "W83",
-      "away": "W84",
+      "away": "Spain",
       "homePlaceholder": "W83",
       "awayPlaceholder": "W84",
       "startLocal": "2026-07-06T14:00:00",
@@ -2235,8 +2235,8 @@
       "fifaMatchId": "400021529",
       "fifaStageId": "289288",
       "status": "CONFIRMED",
-      "summary": "R16 - W83 vs W84 (M93)",
-      "description": "FIFA World Cup 2026 Match 93\nRound of 16 - W83 vs W84\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529"
+      "summary": "R16 - W83 vs Spain (M93)",
+      "description": "FIFA World Cup 2026 Match 93\nRound of 16 - W83 vs Spain\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529"
     },
     {
       "matchNumber": 94,
