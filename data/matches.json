@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-07-04T20:02:21+00:00",
+  "lastUpdated": "2026-07-04T23:49:38+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2317,7 +2317,7 @@
       "stage": "Quarter-final",
       "stageLabel": "Quarter-final",
       "group": null,
-      "home": "W89",
+      "home": "France",
       "away": "Morocco",
       "homePlaceholder": "W89",
       "awayPlaceholder": "W90",
@@ -2331,8 +2331,8 @@
       "fifaMatchId": "400021536",
       "fifaStageId": "289289",
       "status": "CONFIRMED",
-      "summary": "QF - W89 vs Morocco (M97)",
-      "description": "FIFA World Cup 2026 Match 97\nQuarter-final - W89 vs Morocco\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536"
+      "summary": "QF - France vs Morocco (M97)",
+      "description": "FIFA World Cup 2026 Match 97\nQuarter-final - France vs Morocco\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536"
     },
     {
       "matchNumber": 98,
