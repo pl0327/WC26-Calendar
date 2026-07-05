@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-07-04T23:49:38+00:00",
+  "lastUpdated": "2026-07-05T22:45:36+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2365,7 +2365,7 @@
       "stage": "Quarter-final",
       "stageLabel": "Quarter-final",
       "group": null,
-      "home": "W91",
+      "home": "Norway",
       "away": "W92",
       "homePlaceholder": "W91",
       "awayPlaceholder": "W92",
@@ -2379,8 +2379,8 @@
       "fifaMatchId": "400021539",
       "fifaStageId": "289289",
       "status": "CONFIRMED",
-      "summary": "QF - W91 vs W92 (M99)",
-      "description": "FIFA World Cup 2026 Match 99\nQuarter-final - W91 vs W92\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021539"
+      "summary": "QF - Norway vs W92 (M99)",
+      "description": "FIFA World Cup 2026 Match 99\nQuarter-final - Norway vs W92\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021539"
     },
     {
       "matchNumber": 100,
