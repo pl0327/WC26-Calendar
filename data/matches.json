@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-07-06T06:13:53+00:00",
+  "lastUpdated": "2026-07-06T21:17:01+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2341,7 +2341,7 @@
       "stage": "Quarter-final",
       "stageLabel": "Quarter-final",
       "group": null,
-      "home": "W93",
+      "home": "Spain",
       "away": "W94",
       "homePlaceholder": "W93",
       "awayPlaceholder": "W94",
@@ -2355,8 +2355,8 @@
       "fifaMatchId": "400021538",
       "fifaStageId": "289289",
       "status": "CONFIRMED",
-      "summary": "QF - W93 vs W94 (M98)",
-      "description": "FIFA World Cup 2026 Match 98\nQuarter-final - W93 vs W94\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538"
+      "summary": "QF - Spain vs W94 (M98)",
+      "description": "FIFA World Cup 2026 Match 98\nQuarter-final - Spain vs W94\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538"
     },
     {
       "matchNumber": 99,
