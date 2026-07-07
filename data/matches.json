@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-07-07T19:28:26+00:00",
+  "lastUpdated": "2026-07-07T23:42:39+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2390,7 +2390,7 @@
       "stageLabel": "Quarter-final",
       "group": null,
       "home": "Argentina",
-      "away": "W96",
+      "away": "Switzerland",
       "homePlaceholder": "W95",
       "awayPlaceholder": "W96",
       "startLocal": "2026-07-11T20:00:00",
@@ -2403,8 +2403,8 @@
       "fifaMatchId": "400021537",
       "fifaStageId": "289289",
       "status": "CONFIRMED",
-      "summary": "QF - Argentina vs W96 (M100)",
-      "description": "FIFA World Cup 2026 Match 100\nQuarter-final - Argentina vs W96\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021537"
+      "summary": "QF - Argentina vs Switzerland (M100)",
+      "description": "FIFA World Cup 2026 Match 100\nQuarter-final - Argentina vs Switzerland\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289289/400021537"
     },
     {
       "matchNumber": 101,
