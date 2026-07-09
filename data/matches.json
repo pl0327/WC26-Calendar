@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-07-07T23:42:39+00:00",
+  "lastUpdated": "2026-07-09T22:10:18+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2413,7 +2413,7 @@
       "stage": "Semi-final",
       "stageLabel": "Semi-final",
       "group": null,
-      "home": "W97",
+      "home": "France",
       "away": "W98",
       "homePlaceholder": "W97",
       "awayPlaceholder": "W98",
@@ -2427,8 +2427,8 @@
       "fifaMatchId": "400021541",
       "fifaStageId": "289290",
       "status": "CONFIRMED",
-      "summary": "SF - W97 vs W98 (M101)",
-      "description": "FIFA World Cup 2026 Match 101\nSemi-final - W97 vs W98\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541"
+      "summary": "SF - France vs W98 (M101)",
+      "description": "FIFA World Cup 2026 Match 101\nSemi-final - France vs W98\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541"
     },
     {
       "matchNumber": 102,
