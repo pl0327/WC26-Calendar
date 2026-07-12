@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-07-10T21:47:28+00:00",
+  "lastUpdated": "2026-07-12T01:18:55+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2437,7 +2437,7 @@
       "stage": "Semi-final",
       "stageLabel": "Semi-final",
       "group": null,
-      "home": "W99",
+      "home": "England",
       "away": "W100",
       "homePlaceholder": "W99",
       "awayPlaceholder": "W100",
@@ -2451,8 +2451,8 @@
       "fifaMatchId": "400021540",
       "fifaStageId": "289290",
       "status": "CONFIRMED",
-      "summary": "SF - W99 vs W100 (M102)",
-      "description": "FIFA World Cup 2026 Match 102\nSemi-final - W99 vs W100\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540"
+      "summary": "SF - England vs W100 (M102)",
+      "description": "FIFA World Cup 2026 Match 102\nSemi-final - England vs W100\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540"
     },
     {
       "matchNumber": 103,
