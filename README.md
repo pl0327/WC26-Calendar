@@ -6,7 +6,7 @@ Match data is sourced from [FIFA Matches](https://www.fifa.com/en/tournaments/me
 
 ## Overview
 
-Subscribe to get all **104 World Cup 2026 matches** in your calendar. Knockout-round opponents (e.g. `W74`, `W75`) update automatically after each match once results are confirmed.
+Subscribe to get all **104 World Cup 2026 matches** in your calendar. Knockout-round opponents (e.g. `W74`, `W75`) were updated through the semi-finals; the third-place play-off and Final are refreshed after the England vs Argentina semi-final via a one-time GitHub Actions run.
 
 **Subscription URL** (copy this):
 
@@ -32,15 +32,27 @@ https://cdn.jsdelivr.net/gh/pl0327/WC26-Calendar@master/world_cup_2026.ics
 
 Look for *Subscribe to calendar*, *From URL*, or *webcal* and paste the same URL. Use the `https://` link above — it works with Apple Calendar, Google Calendar, Outlook, and most other apps.
 
-The calendar is read-only and refreshes periodically. During the tournament, match names and knockout opponents update on their own.
+The calendar is read-only and refreshes periodically from the published ICS file.
+
+## Remaining matches (post semi-finals)
+
+Semi-final 101 (France vs Spain) is complete. Semi-final 102 (England vs Argentina) and the last two fixtures still use placeholders until FIFA publishes the result:
+
+| Match | Stage | Current fixture | Kick-off (local) | Venue |
+| --- | --- | --- | --- | --- |
+| M102 | Semi-final | England vs Argentina | Wed 15 Jul 2026, 15:00 America/New_York | Atlanta Stadium |
+| M103 | 3rd Place Play-off | L101 vs L102 | Sat 18 Jul 2026, 17:00 America/New_York | Miami Stadium |
+| M104 | Final | W101 vs W102 | Sun 19 Jul 2026, 15:00 America/New_York | New York/New Jersey Stadium |
+
+After M102 finishes, M103 and M104 resolve to the semi-final losers and winners (e.g. France and Spain from M101). A [one-time GitHub Actions workflow](.github/workflows/update-finals.yml) fetches FIFA data and commits the updated calendar on **16 Jul 2026 at 07:00 UTC+8**.
 
 ## Features
 
 - **104 matches** across all stages: Group stage, Round of 32, Round of 16, Quarter-finals, Semi-finals, Third-place play-off, and Final
 - **JSON database** (`data/matches.json`) with structured match metadata
 - **ICS calendar** (`world_cup_2026.ics`) for calendar apps
-- **Auto-updating knockout opponents** — after each match, downstream slots (e.g. `W74`, `W75`) are resolved to actual team names once FIFA publishes results
-- **GitHub Actions** — hourly checks during the tournament, committing updates automatically
+- **Knockout opponent resolution** — slots such as `W74` / `W75` were filled from FIFA results as rounds completed
+- **One-time finals update** — GitHub Actions refreshes M103 and M104 after the last semi-final
 - **GitHub Pages** — hosts the ICS at a public URL for calendar subscription
 
 ## Repository layout
@@ -54,7 +66,8 @@ The calendar is read-only and refreshes periodically. During the tournament, mat
 │   └── world_cup_2026.ics     # ICS copy for GitHub Pages
 ├── world_cup_2026.ics         # ICS calendar (repo root)
 └── .github/workflows/
-    └── update-calendar.yml    # Scheduled auto-update workflow
+    ├── update-calendar.yml    # Hourly auto-update (disabled)
+    └── update-finals.yml      # One-time 3rd place / Final refresh
 ```
 
 ## Requirements
@@ -124,11 +137,13 @@ Use the same URL with a `webcal://` prefix if your calendar app expects a subscr
 
 ### 2. Enable GitHub Actions
 
-The auto-update workflow lives at `.github/workflows/update-calendar.yml`. GitHub Actions is enabled by default on most repos. To confirm:
+GitHub Actions is enabled by default on most repos. To confirm:
 
 1. Go to **Settings** → **Actions** → **General**
 2. Allow actions to run (e.g. **Allow all actions and reusable workflows**)
-3. Under **Workflow permissions**, choose **Read and write permissions** so the workflow can commit updated files
+3. Under **Workflow permissions**, choose **Read and write permissions** so workflows can commit updated files
+
+The hourly [Update World Cup Calendar](.github/workflows/update-calendar.yml) workflow is **disabled** (it failed after the semi-finals when FIFA renamed the third-place stage to `Bronze final`). Use [Update Finals Calendar](.github/workflows/update-finals.yml) instead.
 
 ### 3. Initial calendar publish
 
@@ -141,18 +156,24 @@ git commit -m "Publish World Cup 2026 calendar"
 git push
 ```
 
-Alternatively: **Actions** → **Update World Cup Calendar** → **Run workflow** (requires `data/matches.json` to already exist in the repo for `--auto` to compare changes; use a local `--force` run for the first publish).
+Alternatively: **Actions** → **Update Finals Calendar** → **Run workflow** to refresh M103/M104 immediately (same as the scheduled run).
 
-## Auto-update workflow
+## Workflows
 
-The [Update World Cup Calendar](.github/workflows/update-calendar.yml) workflow:
+### Update Finals Calendar (active)
 
-- Runs **every hour** on a cron schedule
-- Can also be triggered manually via **Actions → Update World Cup Calendar → Run workflow**
-- Runs `python src/generate_calendar.py --auto`
-- Commits and pushes only when match data or the ICS file has changed
+The [Update Finals Calendar](.github/workflows/update-finals.yml) workflow:
 
-The 4-hour delay after kick-off gives FIFA time to publish final results before downstream knockout opponents are updated.
+- Runs **once** on **16 Jul 2026 at 07:00 UTC+8** (23:00 UTC on 15 Jul)
+- Can also be triggered manually via **Actions → Update Finals Calendar → Run workflow**
+- Runs `python src/generate_calendar.py --force` to fetch FIFA data and resolve M103 (3rd place) and M104 (Final)
+- Commits and pushes `data/matches.json`, `world_cup_2026.ics`, and `docs/world_cup_2026.ics`
+
+The scheduled cron includes a date guard so it only executes on 2026-07-16 in UTC+8, even though GitHub cron syntax repeats yearly.
+
+### Update World Cup Calendar (disabled)
+
+The [Update World Cup Calendar](.github/workflows/update-calendar.yml) workflow previously ran hourly with `--auto`. It is now inert (`if: false`, no schedule) because FIFA's `Bronze final` stage name caused a generator crash after the semi-finals.
 
 ## Data source
 

@@ -30,7 +30,9 @@ STAGE_CATEGORY = {
     "Round of 16": "R16",
     "Quarter-final": "QF",
     "Semi-final": "SF",
+    # FIFA historically used "Play-off for third place"; later "Bronze final".
     "Play-off for third place": "3RD",
+    "Bronze final": "3RD",
     "Final": "FINAL",
 }
 
@@ -41,6 +43,7 @@ STAGE_DESCRIPTION = {
     "Quarter-final": "Quarter-final",
     "Semi-final": "Semi-final",
     "Play-off for third place": "3rd Place Play-off",
+    "Bronze final": "3rd Place Play-off",
     "Final": "Final",
 }
 

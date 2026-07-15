@@ -1,9 +1,9 @@
+# Disabled: hourly auto-update failed after the semi-finals when FIFA renamed the
+# third-place stage to "Bronze final" (KeyError in generate_calendar.py).
+# Use update-finals.yml for the post-semi-finals refresh instead.
 name: Update World Cup Calendar
 
 on:
-  schedule:
-    # Check hourly during the tournament window for post-match opponent updates.
-    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   update:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

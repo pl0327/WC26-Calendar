@@ -1,0 +1,48 @@
+name: Update Finals Calendar
+
+# One-time refresh of Match 103 (3rd place) and Match 104 (Final) after the
+# England vs Argentina semi-final. Scheduled for 07:00 UTC+8 on 16 Jul 2026
+# (23:00 UTC on 15 Jul). Manual runs via workflow_dispatch are always allowed.
+on:
+  schedule:
+    - cron: "0 23 15 7 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-finals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Guard one-time schedule (UTC+8)
+        id: guard
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && \
+             [ "$(TZ=Asia/Hong_Kong date +%F)" != "2026-07-16" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping: scheduled cron only runs on 2026-07-16 (UTC+8)."
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout repository
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.guard.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update 3rd place and Final from FIFA
+        if: steps.guard.outputs.run == 'true'
+        run: python src/generate_calendar.py --force
+
+      - name: Commit and push changes
+        if: steps.guard.outputs.run == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update World Cup 2026 3rd place and Final from FIFA"
+          file_pattern: "data/matches.json world_cup_2026.ics docs/world_cup_2026.ics"
