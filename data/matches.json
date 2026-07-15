@@ -1,6 +1,6 @@
 {
   "calendarTitle": "World Cup 2026",
-  "lastUpdated": "2026-07-12T05:11:54+00:00",
+  "lastUpdated": "2026-07-15T23:45:14+00:00",
   "source": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
   "scoresFixturesUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
   "updateDelayHours": 4,
@@ -2458,11 +2458,11 @@
       "matchNumber": 103,
       "uid": "fifa-wc26-match-103@worldcup-calendar",
       "category": "3RD",
-      "stage": "Play-off for third place",
+      "stage": "Bronze final",
       "stageLabel": "3rd Place Play-off",
       "group": null,
-      "home": "L101",
-      "away": "L102",
+      "home": "France",
+      "away": "England",
       "homePlaceholder": "L101",
       "awayPlaceholder": "L102",
       "startLocal": "2026-07-18T17:00:00",
@@ -2475,8 +2475,8 @@
       "fifaMatchId": "400021542",
       "fifaStageId": "289291",
       "status": "CONFIRMED",
-      "summary": "3RD - L101 vs L102 (M103)",
-      "description": "FIFA World Cup 2026 Match 103\n3rd Place Play-off - L101 vs L102\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289291/400021542"
+      "summary": "3RD - France vs England (M103)",
+      "description": "FIFA World Cup 2026 Match 103\n3rd Place Play-off - France vs England\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289291/400021542"
     },
     {
       "matchNumber": 104,
@@ -2485,8 +2485,8 @@
       "stage": "Final",
       "stageLabel": "Final",
       "group": null,
-      "home": "W101",
-      "away": "W102",
+      "home": "Spain",
+      "away": "Argentina",
       "homePlaceholder": "W101",
       "awayPlaceholder": "W102",
       "startLocal": "2026-07-19T15:00:00",
@@ -2499,8 +2499,8 @@
       "fifaMatchId": "400021543",
       "fifaStageId": "289292",
       "status": "CONFIRMED",
-      "summary": "FINAL - W101 vs W102 (M104)",
-      "description": "FIFA World Cup 2026 Match 104\nFinal - W101 vs W102\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543"
+      "summary": "FINAL - Spain vs Argentina (M104)",
+      "description": "FIFA World Cup 2026 Match 104\nFinal - Spain vs Argentina\n\nScores and fixtures: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures \n\n Match page: https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543"
     }
   ]
 }
